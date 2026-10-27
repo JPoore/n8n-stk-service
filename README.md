@@ -1,6 +1,6 @@
 # n8n Send-to-Kindle (stk-service)
 
-A lightweight FastAPI microservice wrapped around `stkclient` that exposes Amazon's official "Send to Kindle" API as a simple local HTTP POST endpoint. 
+A lightweight FastAPI microservice wrapped around `stkclient` that exposes Amazon's unofficial "Send to Kindle" API as a simple local HTTP POST endpoint. 
 
 This project was specifically designed to bypass the quirks of Amazon's `@kindle.com` email gateway so platforms like **n8n** and **Obsidian** can programmatically send PDFs to the Kindle Scribe. Bypassing the email gateway guarantees documents arrive as native **Print Replicas**, retaining the ability to handwrite on pages and preserving the Scribe's native "Share" (export) button.
 
