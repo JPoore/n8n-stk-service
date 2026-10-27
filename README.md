@@ -15,7 +15,7 @@ This project was specifically designed to bypass the quirks of Amazon's `@kindle
 1. Spin up the container using Docker Compose:
    ```bash
    docker-compose up -d
-[200~Follow the URL provided to log into Amazon, then paste the redirect URL back into the terminal.
+Follow the URL provided to log into Amazon, then paste the redirect URL back into the terminal.
 
 Usage in n8n
 Simply create an HTTP Request node in n8n:
